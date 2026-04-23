@@ -1,0 +1,17 @@
+{
+  "$schema": "file:///C:/Users/gisql/Documents/GitHub/Nebula/workspace/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "version":"1.0.0",
+    "name":"마맨서버",
+    "description":"마맨의 서버 런처 입니다람쥐썬도라지",
+    "icon":"",
+    "address":"없음",
+    "rss": "<LINK TO RSS FEED>",
+    "discord": {
+      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    }
+
+  }
+}

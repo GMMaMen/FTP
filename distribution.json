@@ -1,0 +1,164 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "마맨서버-1.21.10",
+      "name": "마맨서버 (Minecraft 1.21.10)",
+      "description": "마맨서버 Running Minecraft 1.21.10 (Fabric v0.19.2)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.10",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.2",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1968930,
+            "MD5": "d692407a67129e913b4210218edebb20",
+            "url": "https://gmmamen.github.io/FTP/repo/lib/net/fabricmc/fabric-loader/0.19.2/fabric-loader-0.19.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.10-fabric-0.19.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2850,
+                "MD5": "c36a4557b4a7d3c8ca6eb85d03439ed0",
+                "url": "https://gmmamen.github.io/FTP/repo/versions/1.21.10-fabric-0.19.2/1.21.10-fabric-0.19.2.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://gmmamen.github.io/FTP/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://gmmamen.github.io/FTP/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://gmmamen.github.io/FTP/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://gmmamen.github.io/FTP/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://gmmamen.github.io/FTP/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.2+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540039,
+                "MD5": "4b6b96074976cc7aa096b9e569ca623e",
+                "url": "https://gmmamen.github.io/FTP/repo/lib/net/fabricmc/sponge-mixin/0.17.2+mixin.0.8.7/sponge-mixin-0.17.2+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.10",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 778652,
+                "MD5": "612031a185c7493cc93e908a875b72cc",
+                "url": "https://gmmamen.github.io/FTP/repo/lib/net/fabricmc/intermediary/1.21.10/intermediary-1.21.10.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.moulberry:axiom:5.3.0@jar",
+          "name": "Axiom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 44253157,
+            "url": "https://gmmamen.github.io/FTP/servers/%EB%A7%88%EB%A7%A8%EC%84%9C%EB%B2%84-1.21.10/fabricmods/optionalon/Axiom-5.3.0-for-MC1.21.10.jar",
+            "MD5": "bb4e13c41892cae6040bcf24d4493dbe"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.138.4+1.21.10@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2375888,
+            "url": "https://gmmamen.github.io/FTP/servers/%EB%A7%88%EB%A7%A8%EC%84%9C%EB%B2%84-1.21.10/fabricmods/required/fabric-api-0.138.4+1.21.10.jar",
+            "MD5": "c9ebf1b300d813310d18115a7cc03f99"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.9.7+mc1.21.10@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2717422,
+            "url": "https://gmmamen.github.io/FTP/servers/%EB%A7%88%EB%A7%A8%EC%84%9C%EB%B2%84-1.21.10/fabricmods/required/iris-fabric-1.9.7+mc1.21.10.jar",
+            "MD5": "7d2bf05890132d821ae1c09458aac654"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.7.3+mc1.21.10@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1676903,
+            "url": "https://gmmamen.github.io/FTP/servers/%EB%A7%88%EB%A7%A8%EC%84%9C%EB%B2%84-1.21.10/fabricmods/required/sodium-fabric-0.7.3+mc1.21.10.jar",
+            "MD5": "57a54742a51ae95bdc47e83f7245a9e2"
+          }
+        }
+      ]
+    }
+  ]
+}
