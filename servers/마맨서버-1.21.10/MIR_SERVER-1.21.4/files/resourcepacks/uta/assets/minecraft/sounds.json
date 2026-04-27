@@ -1,0 +1,11 @@
+{
+  "music.1": {
+    "sounds": ["music/ado"]
+  },
+  "music.2": {
+    "sounds": ["music/brth"]
+  },
+  "music.3": {
+    "sounds": ["music/mir"]
+  }
+}
